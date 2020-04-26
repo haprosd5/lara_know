@@ -39,6 +39,6 @@
         </tbody>
     </table>
 <h3>Total: {{ \Cart::session(auth()->id())->getTotal() }}$</h3>
-<a href="{{ url('cart/order') }}" class="btn btn-primary btm-sm">Procees check out</a>
+<a href="{{ url('cart/checkout') }}" class="btn btn-primary btm-sm">Procees check out</a>
 </div>
 @endsection

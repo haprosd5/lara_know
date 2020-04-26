@@ -55,10 +55,11 @@ class CardController extends Controller
 
         return back();
     }
-    /** đặt hàng */
-    public function cartOrder()
+    /** hien thi checkout */
+    public function checkout()
     {
         # code...
-        return view('carts.order');
+        return view('carts.checkout');
     }
+
 }
